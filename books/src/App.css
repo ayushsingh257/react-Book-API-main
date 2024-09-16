@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Inika&family=Open+Sans&family=Poor+Story&family=Protest+Riot&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body{
+  background-color: #CCAC80;
+  padding: 30px 60px 30px 60px;
+  min-height: 100vh;
+}
+header{
+  background-color: #EEEAE4;
+  padding: 40px 80px 10px 80px ;
+  border-radius: 25px;
+}
+.flex{
+  display: flex;
+}
+.align-center{
+  align-items: center;
+}
+.register-btn{
+  border: 2px solid  #D4A759;
+  color:  #D4A759;
+  padding: 8px;
+  padding-inline: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  box-shadow: 5px 5px 5px rgb(214, 214, 214);
+  cursor: pointer;
+}
+.logo h2{
+  color: #F6806F;
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 26px;
+}
+.logo img{
+  height: 40px;
+  width: 40px;
+}
+.top-panel{
+  justify-content: space-between;
+  padding-bottom: 60px ;
+  
+}
+.buttons-sec img{
+  height: 25px;
+  padding-inline: 4px ;
+}
+.buttons-sec div{
+  color: #2F2420;
+  font-family: 'Poor Story', system-ui; 
+  font-size: 20px; 
+  font-weight: bolder;
+  padding-inline: 15px;
+  cursor: pointer;
+}
+.book-btn{
+  background-color: #D4A759;
+  box-shadow: 5px 5px 5px rgb(214, 214, 214);
+  border-radius: 25px;
+  padding: 5px ;
+  margin-right: 50px;
+}
+.hero-img{
+  justify-content: space-between;
+  padding-inline: 60px;
+}
+.hero-img h1{
+  font-family: 'Inika', serif;
+  font-size:52px;
+  color: #2F2420;
+  padding: 2px;
+}
+.hero-img p{
+  color: rgb(73, 73, 73);
+  font-family: 'Inika', serif;
+  padding-top: 5px;
+}
+.input-bar input{
+  height: 40px;
+  width: 400px;
+  margin-block: 20px;
+  padding-left: 50px;
+  font-size: 18px;
+  color: #2F2420;
+  /* border: 2px solid #F6806F; */
+  border: none;
+  border-radius: 25px;
+}
+input:focus{
+  outline: 2px solid #F6806F;
+}
+.input-bar img{
+  position: relative;
+  bottom: 50px;
+  left: 14px;
+}
+.book-container{
+  width: 90%;
+  margin: auto;
+  padding-block: 50px;
+}
+.book-box{
+  padding: 20px;
+  margin-inline: 60px ;
+  margin-block: 50px;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #EEEAE4;
+}
+.book-box img{
+  height: 270px;
+  width: 200px;
+} 
+.book-box p{
+  padding-inline: 5px;
+  text-align: center;
+}
+.title{
+  font-family: 'Inika', serif;
+  color: black;
+  font-weight: bolder;
+}
+.rating {
+  color: #2F2420;
+  font-family:  'Protest Riot', sans-serif;
+  padding: 10px;
+  
+}
+.des{
+  align-items: center;
+}
+
+
